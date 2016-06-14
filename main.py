@@ -19,6 +19,7 @@ i = 0
 rw = xlwt.Workbook()
 rws = rw.add_sheet('servers')
 
+# Генерация заголовков рядов в excel-файле
 rws.write(i, 0, 'Server name')
 rws.write(i, 1, 'Patching date & time')
 rws.write(i, 2, 'Patching week')
